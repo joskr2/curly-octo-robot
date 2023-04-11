@@ -1,0 +1,9 @@
+button {
+  max-width: fit-content;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: #EECF49;
+  color: #4D5D57;
+  border: none;
+  border-radius: 10px;
+}

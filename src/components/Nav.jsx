@@ -42,7 +42,7 @@ const Nav = () => {
       <nav>
         {
           menuItems.map( ( item, index ) => {
-            return <Link index={index} className={item.cName} to={item.path} >
+            return <Link key={index} className={item.cName} to={item.path} >
               {item.title}
             </Link>
           } )
