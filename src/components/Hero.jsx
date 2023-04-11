@@ -4,7 +4,7 @@ import Button from "../components/Button"
 import MainPhoto from '../assets/mainfood.jpg'
 const Hero = () => {
   return (
-    <section >
+    <section className='main-section'>
       <div className='section-text'>
         <div className='title'>Little Lemmon</div>
         <div className='subtitle'>Chicago</div>

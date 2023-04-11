@@ -1,0 +1,12 @@
+.card-title-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+  width: 100vw;
+}
+
+.title-section {
+  font-size: 32px;
+  font-weight: 300;
+}
