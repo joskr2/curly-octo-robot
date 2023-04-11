@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
 }
 
-a {
+.nav-links {
   color: #000;
   text-decoration: none;
   font-size: 1rem;
@@ -14,7 +14,7 @@ a {
 }
 
 
-/* make this nav responsive */
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;

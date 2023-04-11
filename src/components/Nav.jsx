@@ -1,19 +1,52 @@
 import React from 'react'
-
 import '../styles/Nav.css'
-import hamburger from '../assets/hamburger.svg'
+import { Link } from 'react-router-dom'
 
+
+const menuItems = [
+  {
+    title: 'Home',
+    path: '/',
+    cName: 'nav-links'
+  },
+  {
+    title: 'About',
+    path: '/about',
+    cName: 'nav-links'
+  },
+  {
+    title: 'Menu',
+    path: '/menu',
+    cName: 'nav-links'
+  },
+  {
+    title: 'Reservations',
+    path: '/reservations',
+    cName: 'nav-links'
+  },
+  {
+    title: 'Order Online',
+    path: '/order-online',
+    cName: 'nav-links'
+  },
+  {
+    title: 'Login',
+    path: '/login',
+    cName: 'nav-links'
+  }
+]
 
 const Nav = () => {
   return (
     <>
       <nav>
-        <a href='#'>Home</a>
-        <a href='#'>About</a>
-        <a href='#'>Menu</a>
-        <a href='#'>Reservations</a>
-        <a href='#'>Order Online</a>
-        <a href='#'>Login</a>
+        {
+          menuItems.map( ( item, index ) => {
+            return <Link index={index} className={item.cName} to={item.path} >
+              {item.title}
+            </Link>
+          } )
+        }
       </nav>
     </>
 
