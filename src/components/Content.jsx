@@ -34,7 +34,7 @@ const Content = () => {
       {
         cardContent.map( ( card, index ) => {
           return (
-            <Card key={index} title={card.title} price={card.price} description={card.description} url={card.imageUrl} />
+            <Card key={index} title={card.title} price={card.price} description={card.description} url={card.imageUrl} order={card.orderDelivery} />
           )
         } )
       }
