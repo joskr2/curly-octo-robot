@@ -12,7 +12,7 @@ const Card = ( { title, description, price, url , order} ) => {
             <p className='title'>{title}</p>
             <p className='price'>{price}</p>
           </div>
-          <p>{description}</p>
+          <p className='description'>{description}</p>
           <div className='card-content-subsection'>
             <p className=''>Order a delivery <strong>{order}</strong> </p>
             

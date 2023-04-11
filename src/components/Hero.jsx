@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className='main-section'>
       <div className='section-text'>
-        <div className='title'>Little Lemmon</div>
+        <div className='main-title'>Little Lemmon</div>
         <div className='subtitle'>Chicago</div>
         <p className='text'>
           We are a family owned

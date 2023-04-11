@@ -1,8 +1,7 @@
-.card-section{
+.card-section {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 5rem auto;
-  width: 100vw;
+  margin: auto;
+  gap: 2rem;
 }
