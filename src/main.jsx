@@ -6,20 +6,23 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import Reservations from "./pages/Reservations";
+import { RecoilRoot } from "recoil";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter( [
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
   },
   {
     path: "/reservations",
-    element: <Reservations/>,
+    element: <Reservations />,
   }
-]);
+] );
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot( document.getElementById( "root" ) ).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RecoilRoot>
+      <RouterProvider router={router} />
+    </RecoilRoot>
   </React.StrictMode>
 );

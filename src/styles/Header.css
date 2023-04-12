@@ -9,6 +9,7 @@ header {
 }
 img {
   margin-right: 50px;
+  cursor: pointer;
 }
 
 /* make this header responsive */

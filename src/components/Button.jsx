@@ -1,8 +1,10 @@
 import React from 'react'
 import '../styles/Button.css'
-const Button = ({text}) => {
+import { useNavigate } from 'react-router-dom'
+const Button = ( { text, redirectTo } ) => {
+  const navigate = useNavigate();
   return (
-    <button>{text}</button>
+    <button onClick={() => navigate( redirectTo )}>{text}</button>
   )
 }
 
