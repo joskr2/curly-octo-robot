@@ -3,6 +3,7 @@ import "./../styles/Content.css"
 import CardTitleSection from './CardTitleSection'
 import Card from './Card'
 import Banner from './Banner'
+import Testimonials from './Testimonials'
 
 const cardContent = [
   {
@@ -40,7 +41,7 @@ const Content = () => {
         } )
       }
     </section>
-
+    <Testimonials/>
     <Banner/>
     </>
 
