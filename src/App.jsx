@@ -11,8 +11,8 @@ const App = () => {
         <Nav />
       </Header>
       <div className='container'>
-        <Main></Main>
-        <Footer></Footer>
+        <Main />
+        <Footer />
       </div>
     </>
 
