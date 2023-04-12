@@ -19,7 +19,7 @@ const Hero = () => {
         <Button text="Reserve a Table" redirectTo="/reservations" />
       </div>
       <div className='section-image'>
-        <img className='main-image' src={MainPhoto} alt='imgen restaurante' />
+        <img className='main-image' src={MainPhoto} alt='imgen restaurante' onClick={() => navigate( "/" )} />
       </div>
     </section>
 

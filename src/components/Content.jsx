@@ -2,6 +2,7 @@ import React from 'react'
 import "./../styles/Content.css"
 import CardTitleSection from './CardTitleSection'
 import Card from './Card'
+import Banner from './Banner'
 
 const cardContent = [
   {
@@ -39,6 +40,8 @@ const Content = () => {
         } )
       }
     </section>
+
+    <Banner/>
     </>
 
   )

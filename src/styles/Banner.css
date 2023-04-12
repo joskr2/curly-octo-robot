@@ -1,0 +1,62 @@
+.main-section-banner {
+  background-color: #BEA639;
+  display: flex;
+  height: 35vh;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.section-text-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.section-image-banner {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.image-banner1 {
+  width: 200px;
+  height: 175px;
+  margin-top: 2rem;
+  border-radius: 5%;
+  position: absolute;
+}
+
+.image-banner2 {
+  width: 200px;
+  height: 175px;
+  border-radius: 5%;
+  margin-right: 15rem;
+  position: relative;
+}
+
+.main-title-banner {
+  color: #4D5D57;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle-banner {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.text-testimonials {
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 100;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
