@@ -21,7 +21,7 @@ const BookingForm = () => {
 
   return (
     <>
-      <form className='reservation_form' onSubmit={handleSubmit( onSubmit )}>
+      <form data-testid="booking-form" className='reservation_form' onSubmit={handleSubmit( onSubmit )}>
         <input type="date" placeholder="Choose Date" {...register( "date" )} />
         <input type="time" placeholder="Choose Time" {...register( "time" )} />
         <input type="number" placeholder="Number of Guest" {...register( "guest" )} />
